@@ -12,6 +12,7 @@
   }
   ```
 */
+import Image from "next/image";
 const callouts = [
   {
     name: "Cabinet",
@@ -67,9 +68,9 @@ const callouts = [
 
 export default function tiles() {
   return (
-    <div className="bg-gray-100">
+    <div id="projects" className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl py-6 sm:py-8 lg:max-w-none lg:py-12">
+        <div className="mx-auto max-w-2xl py-12 sm:py-16 lg:max-w-none lg:py-20">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Projects
           </h2>
@@ -80,6 +81,8 @@ export default function tiles() {
                 <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
                   <img
                     src={callout.imageSrc}
+                    height={500}
+                    width={500}
                     alt={callout.imageAlt}
                     className="h-full w-full object-cover object-center"
                   />

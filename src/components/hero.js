@@ -9,7 +9,7 @@ export default function Hero() {
             </h1>
             <p className="mt-4 text-xl text-gray-500">
               Bringing Your Unique Design Concepts to Life with Exquisite,
-              Tailor-Made Cabinetry for the Home You've Always Dreamed Of.
+              Tailor-Made Cabinetry for the Home You have Always Dreamed Of.
             </p>
           </div>
           <div>
@@ -81,10 +81,10 @@ export default function Hero() {
               </div>
 
               <a
-                href="#"
+                href="#quote"
                 className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
               >
-                View Projects
+                Get a Free Quote Today
               </a>
             </div>
           </div>

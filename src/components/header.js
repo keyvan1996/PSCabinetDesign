@@ -2,10 +2,20 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
+// Define the scrollToSection function outside the component
+const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    window.scrollTo({
+      behavior: "smooth",
+      top: section.offsetTop,
+    });
+  }
+};
 const navigation = [
-  { name: "PS Cabinet Design", href: "#", current: true },
-  { name: "Projects", href: "#", current: false },
-  { name: "Services", href: "#", current: false },
+  { name: "PS Cabinet Design", href: "", current: true },
+  { name: "Projects", href: "#projects", current: false },
+  { name: "Services", href: "#services", current: false },
 ];
 
 function classNames(...classes) {
@@ -14,7 +24,7 @@ function classNames(...classes) {
 
 export default function header() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-800 sticky top-0 z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -52,6 +62,7 @@ export default function header() {
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
+                        onClick={() => scrollToSection(item.href.substring(1))}
                       >
                         {item.name}
                       </a>

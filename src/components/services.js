@@ -23,7 +23,7 @@ const features = [
 
 export default function services() {
   return (
-    <div className="bg-white">
+    <div id="services" className="bg-white">
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -32,8 +32,8 @@ export default function services() {
           <p className="mt-4 text-gray-500">
             your one-stop destination for all things cabinets. From installation
             and custom cabinet crafting to painting and expert cabinet repairs,
-            we've got your needs covered. With a focus on craftsmanship and
-            customer satisfaction, we're here to turn your cabinet dreams into
+            we have got your needs covered. With a focus on craftsmanship and
+            customer satisfaction, we are here to turn your cabinet dreams into
             reality.
           </p>
 
