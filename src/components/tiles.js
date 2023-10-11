@@ -21,7 +21,7 @@ const callouts = [
       "https://media.istockphoto.com/id/1134845692/photo/kitchen-cabinets.jpg?s=612x612&w=0&k=20&c=aim5Za8na2wKnw4selFNIeuwN643TqDX-mvN4IBhf38=",
     imageAlt:
       "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
-    href: "#",
+    // href: "",
   },
   {
     name: "Full Kitchen",
@@ -30,7 +30,7 @@ const callouts = [
       "https://media.istockphoto.com/id/1124517056/photo/modern-kitchen-design-with-open-concept-and-bar-counter.jpg?s=612x612&w=0&k=20&c=-0RbUatuNDF71I-97EfPrZvzjT0XrO8NB3t5lWYrqyI=",
     imageAlt:
       "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
-    href: "#",
+    // href: "",
   },
   {
     name: "Kitchen",
@@ -38,7 +38,7 @@ const callouts = [
     imageSrc:
       "https://media.istockphoto.com/id/1267060023/photo/modern-scandinavian-kitchen-and-dining-room-with-matte-black-traditional-cabinet-design.jpg?s=612x612&w=0&k=20&c=TGM6OJ2S8LFoH9oLhBXJAGzEKVSQedSW2LmwS2fLAgk=",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "#",
+    // href: "",
   },
   {
     name: "Lounge",
@@ -46,7 +46,7 @@ const callouts = [
     imageSrc:
       "https://media.istockphoto.com/id/157509130/photo/building-lobby.jpg?s=612x612&w=0&k=20&c=p4OgjyXUsVjKM2_7T3laVYmEF_kE19O3YPeC-myKPVI=",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "#",
+    // href: "",
   },
   {
     name: "Office",
@@ -54,7 +54,7 @@ const callouts = [
     imageSrc:
       "https://media.istockphoto.com/id/1290846069/photo/eco-friendly-modern-office-interior-with-brick-wall-waiting-area-and-indoor-plants.jpg?s=612x612&w=0&k=20&c=dHN0QY5xQxEktImdQVsz2H_ZcpCZtRi76781cM6kE44=",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "#",
+    // href: "",
   },
   {
     name: "Hotel",
@@ -62,7 +62,7 @@ const callouts = [
     imageSrc:
       "https://media.istockphoto.com/id/908258590/photo/3d-render-of-hotel-entrance-and-reception.jpg?s=612x612&w=0&k=20&c=E-NcryVNcGq-1uYsIkfTPNGxEgvzW5LBqd0daffLbZQ=",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "#",
+    // href: "",
   },
 ];
 
