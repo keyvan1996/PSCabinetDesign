@@ -17,7 +17,7 @@ export default function Home() {
       <Services />
       <Tiles />
       <Quote/>
-      <Footer />
+      <Footer/>
     </>
   );
 }
